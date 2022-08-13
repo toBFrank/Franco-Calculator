@@ -1,0 +1,103 @@
+body {
+    background-color: #1b1728;
+    width: 515px;
+    margin: 4% auto;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+    color: #977FD7;
+    user-select: none;
+}
+.title {
+    text-align: center;
+}
+.calculator {
+    padding: 20px;
+    box-shadow: opx 1px 4px 0px #000000b7;
+    border-radius: 1px;
+}
+.input {
+    border: 1px solid #7158b4;
+    border-radius: 1px;
+    height: 60px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 2.5rem;  
+    overflow-x: auto;  
+    transition: all .2s ease-in-out;
+}
+.input:hover {  
+    box-shadow: inset 0px 1px 8px 0px #7158b4;  
+}
+.operators div {  
+    color: #bda7fa;
+    display: inline-block;  
+    border: 2px solid #bda7fa;  
+    border-radius: 1px; 
+    width: 80px;  
+    text-align: center;  
+    padding: 10px;  
+    margin: 20px 4px 10px 0;  
+    cursor: pointer;  
+    background-color: #7158b4;  
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;  
+}
+.operators div:hover {  
+    box-shadow: 0px 1px 12px 0px #a9a90c;
+    background-color: #FFFFC2;
+    border: 2px solid #d7d757;  
+    color: #a9a90c; 
+}
+.operators div:active {
+    font-weight: bold;
+
+}
+.numbers {  
+    display: inline-block;  
+}
+.row div {  
+    display: inline-block;  
+    border: 1px solid #7158b4;  
+    border-radius: 1px; 
+    width: 80px;  
+    text-align: center;  
+    padding: 10px;  
+    margin: 20px 4px 10px 0;  
+    cursor: pointer;  
+    background-color: #bda7fa;  
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;  
+}
+.row div:hover {  
+    color: #ffffff;
+    background-color: #f5a9cb;   
+    box-shadow: 0px 1px 12px 0px #f5a9cb;  
+    border-color: #ffffff;  
+}  
+   .row div:active {  
+    font-weight: bold;  
+}  
+.equal {
+    color: #bda7fa;
+    display: inline-block;  
+    border: 2px solid #bda7fa;  
+    border-radius: 1px; 
+    width: 17%;  
+    text-align: center;  
+    padding: 129px 9px;  
+    margin: 20px 0px 10px 7px;
+    vertical-align: top;  
+    cursor: pointer;  
+    background-color: #7158b4;  
+    transition: all .2s ease-in-out;  
+}
+.equal:hover {  
+    background-color: #98c3f4;
+    border: 2px solid #2a66ab;
+    color: #2a66ab;
+    box-shadow: 0px 1px 12px 0px #2a66ab;  
+}  
+.equal:active {  
+    font-weight: bold;  
+}
